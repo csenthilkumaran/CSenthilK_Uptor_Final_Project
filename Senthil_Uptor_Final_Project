@@ -1,0 +1,48 @@
+""" Project Detailing """
+        1. Main Project with complete study of input features data and multiple target with
+        different supervised and Unsupervised algorithms
+                file name << Senthil_Uptor_Final_MainProject_FullComplete.py >>
+        2. Linear Regression Model for Sample Deployment using pickle and flask libraries
+                file name << Senthil_Uptor_Final_Project_LinearRegression.py >>
+                pkl file <<  Senthil_Final_linear_model_pickling.pkl >>
+                python deployment file << Senthil_Uptor_Final_Project_LRModel_Deploy.py >>
+        3. Senthil_Uptor_Final_Project.csv dataset
+
+Following the 5 step process of Machine Learning
+
+Define the Problem: Identify the task and collect relevant data.
+       Approach towards  Manufacturing Segment Data set with Time series data for Machine Learning
+       using Supervised and Unsupervised Algorithms
+       Target to predict the Production related parameters like units/ hours, defective rate, efficiency
+
+       Senthil_Uptor_Final_Project.csv file is used with lots of various input features to predict the required target
+
+Prepare the Data: Clean, preprocess and transform the data.
+
+        The time series data is preprocessed for proper datatypes and removing non number values etc
+        Prepared the data for different features data set and target dataset
+
+Choose a Model: Select an appropriate ML algorithm.
+
+      "K-Means algorithm - Unsupervised learning model for grouping the similar data points of all Target parameters\n"
+      "Target > ProductionSpeed->Linear Regression"
+                Linear regression is used for predicting continuous production speed on more input features
+      "Target > PredictiveScore PM_Score ->XgB "
+                XGBRegressor in Python is the regression-specific implementation of XGBoost and is used for
+                regression problems where the intent fpr Predictive maintenance scoring
+
+      "Target > Efficiency-> Decision Tree \n"
+
+      "Target > QCDefectRate-> PCA and Linear Regression\n")
+
+
+Train the Model: Fit the model to the training data.
+        Linear Regression
+        Decision Tree and confusion matrix
+        XgB Regressor
+        K-Means unsupervised algorithm
+
+Evaluate and Deploy: Test performance on unseen data and deploy.
+        Sample deployment with Linear regression model is attached with the separate file for LRModel_Deploy
+        The *.pkl file created for deploying the simple linear regression model to predict the Production speed
+
